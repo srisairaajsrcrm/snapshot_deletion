@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 def is_snapshot_old_enough(age_days):
     # Check if the age is greater than or equal to 1 day
-    return age_days >= 105
+    return age_days >= 105 #initally we can declare how much  ever we want , also days.
 
 def is_snapshot_in_use(snapshot_id, region_name):
     # Initialize EC2 client
